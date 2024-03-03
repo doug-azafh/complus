@@ -1,0 +1,43 @@
+.loader-tres-pontinhos {
+	outline: 1px solid transparent;
+	font-size:0px;
+	padding:0px;
+	display:inline-block;
+}
+
+.loader-tres-pontinhos span {
+    background:#fff;
+	border-radius:100%;
+	vertical-align:50%;
+	display:inline-block;
+	width:18px;
+	height:18px;
+	margin:2px 2px;
+	-webkit-animation:loader-tres-pontinhos 0.8s linear infinite alternate;
+	animation:loader-tres-pontinhos 0.8s linear infinite alternate;
+}
+
+.loader-tres-pontinhos span:nth-child(1){
+	-webkit-animation-delay:-0.8;
+	animation-delay:-0.8s;
+}
+
+.loader-tres-pontinhos span:nth-child(2) {
+	-webkit-animation-delay:-0.53333s;
+	animation-delay:-0.53333s;
+}
+
+.loader-tres-pontinhos span:nth-child(3) {
+	-webkit-animation-delay:-0.26666s;
+	animation-delay:-0.26666s;
+}
+
+@keyframes loader-tres-pontinhos{
+    from {transform: scale(0, 0);}
+    to {transform: scale(1, 1);}
+}
+
+@-webkit-keyframes loader-tres-pontinhos{
+    from {-webkit-transform: scale(0, 0);}
+    to {-webkit-transform: scale(1, 1);}
+}

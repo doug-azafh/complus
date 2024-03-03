@@ -1,0 +1,113 @@
+.modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.6);
+  z-index: 99;
+}
+
+.modal .container{
+  position: fixed;
+  max-width: 600px;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 1em 1em;
+  background-color: #FFF;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+  border-radius: 15px;
+}
+
+.close{
+  background-color: #f65835;
+  border:0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #FFF;
+}
+
+.save{
+  background-color: #3ddf28;
+  border:0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #FFF;
+  margin-left: 15px;
+}
+
+option{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.g option{
+  color: #FFF;
+}
+
+.btn{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btn button{
+  margin: 8px;
+}
+
+.modal h2{
+  margin-bottom: 1.2em;
+}
+
+.row{
+  margin-bottom: 1em;
+}
+
+.sel{
+  border-radius: 15px;
+  padding: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-style: double;
+  border-width: 1px;
+}
+
+.g{
+  width: 80%;
+}
+
+.m{
+  width: 40%;
+}
+
+.p{
+  width: 10%;
+}
+
+.s{
+  margin-right: 30px;
+}
+
+.add-cat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+a:hover{
+  color: #3ddf28;
+}
+

@@ -1,0 +1,183 @@
+.base{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo{
+    background-color: #2be462;
+    margin: 40px;
+    width: 65vw;
+    height: 85vh;
+    border-radius: 20px;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head-corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.month button{
+    border-style: inherit;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 0.9);    
+}
+
+.month{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.month h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+    margin: 6px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.year button{
+    border-style: inherit;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.9);    
+}
+
+.month button:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 1);  
+    padding: 6px;
+}
+
+.year button:hover{
+    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 3px solid rgba(255, 255, 255, 1);  
+    padding: 6px;
+}
+
+.year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.year h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+    margin: 6px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.principal{
+    background-color: #eaeaec;
+    margin-bottom: 40px;
+    margin-top: 0;
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;    
+}
+
+.btn-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-menu button{
+    border-radius: 50%;
+    border-style: none;
+    padding: 0;
+    background-color: #2be462;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.btn-menu nav{
+    opacity: 0;
+    flex-direction: column;
+    background-color: #eaeaec;
+    border-radius: 15px;
+    padding: 2px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.btn-menu nav > button{
+    padding: 8px;
+    border-radius: 15px;
+    margin: 4px;
+}
+
+.btn-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.6s;
+}
+
+.item {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic bold;
+}
+
+.btn-menu ~ .active nav > button:hover {
+    font-weight: bold;
+}
+
+.sair{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 40px;
+}
+
+.btn-sair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: #dc143c;
+    background: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px; 
+    transition: all 0.6s;   
+    margin-top: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.6s;
+    font-size: 0;
+}
+
+.btn-sair:hover{
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}

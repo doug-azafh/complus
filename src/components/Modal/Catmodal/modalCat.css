@@ -1,0 +1,74 @@
+.modal-cat{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.6);
+  z-index: 99;
+}
+
+.modal-cat .container-cat{
+  position: fixed;
+  max-width: 600px;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 1em 1em;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+  border-radius: 15px;
+}
+
+.close-cat{
+  background-color: #f65835;
+  border:0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #FFF;
+}
+
+.save-cat{
+  background-color: #3ddf28;
+  border:0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #FFF;
+  margin-left: 15px;
+}
+
+.g-cat option{
+  color: #FFF;
+}
+
+.btn-cat{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.row-cat{
+  margin-bottom: 1em;
+}
+
+.g-cat{
+  width: 80%;
+}
+
+a{
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.box-color{
+  border-radius: 30px;
+  width: 14%;
+  padding: 2px;
+}
